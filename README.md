@@ -42,7 +42,7 @@ The default configuration follows the experiments in the accompanying manuscript
 | Number of patches | 6 |
 | Node dimension | 64 |
 | Attention heads | 4 |
-| Graph encoder layers | 2 |
+| Graph encoder layers | 5 |
 | FFN dimension | 256 |
 | Dropout | 0.1 |
 
