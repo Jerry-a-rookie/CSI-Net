@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## Minimal usage
 
-The repository intentionally contains the model implementation only. Dataset files, training scripts, evaluation scripts and experiment outputs are not included.
+
 
 ```python
 import torch
@@ -90,20 +90,6 @@ The directed structure can be inspected through the patch-transition graphs and 
   <img src="figures/interaction_visualization.png" width="96%" alt="Learned cross-spatiotemporal interactions" />
 </p>
 
-## Repository scope
-
-This public release contains:
-
-- the CSI-Net model implementation;
-- lightweight package exports and dependency information;
-- architecture and interaction visualizations;
-- the project license.
-
-Training and evaluation scripts, datasets, checkpoints and experiment outputs are intentionally excluded from this repository.
-
-## Citation
-
-If you use CSI-Net in your research, please cite the accompanying paper when its bibliographic information becomes available.
 
 ## License
 
