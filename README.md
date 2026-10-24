@@ -10,11 +10,7 @@ CSI-Net is a graph-based neural network for remaining useful life (RUL) predicti
 
 ## Motivation
 
-Many RUL models extract temporal dynamics and sensor-variable dependencies in separate processing paths. Such decoupling makes it difficult to represent a dependency that crosses both dimensions, for example:
-
-\[
-\text{temperature at } t-1 \;\longrightarrow\; \text{rotational speed at } t.
-\]
+Many RUL models extract temporal dynamics and sensor-variable dependencies in separate processing paths. Such decoupling makes it difficult to represent a dependency that crosses both dimensions.
 
 CSI-Net addresses this limitation by building the two dimensions into one directed patch-level graph.
 
